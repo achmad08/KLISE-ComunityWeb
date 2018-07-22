@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+header{
+	text-align: center;
+	margin-top: -7%;
+
+}
+
+body{
+
+	color: fff;
+}
+
+.foto{
+
+	text-align: center;
+	margin-top: 7%;
+}
+
+.isitentang{
+text-align: center;
+margin-top: 7%;
+font-family: Tahoma, Geneva, sans-serif;
+}
+
+
+

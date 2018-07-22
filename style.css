@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300);
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+
+header{
+	text-align: center;
+	margin top:0;
+
+}
+
+body {
+	
+	margin:0;
+	
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+   
+    background-attachment: fixed;
+	background-size:cover;
+}
+
+.carousel{
+    background-color: 5D5E5E;
+    margin-top: 95px;
+	position:relative;
+	left:20px;
+	 height:250px;
+	 width : 550px;
+	
+}
+.carousel .item{
+    min-height: 250px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+	width : auto;
+}
+.carousel .item img{
+    margin: 0 auto; /* Align slide image horizontally center */
+	max-height: 250px;
+	
+	
+}
+.bs-example{
+	margin: 20px;
+}
+
+
+.skin{
+	display: block;
+	
+	margin-top : 120px;
+	margin-right: 210px;
+	
+	width:190px;
+	height:190px;
+	text-align:center;
+	background-image: url("btn_donasi1.png");
+	background-size:cover;
+	float: right;
+	
+}
+
+.btn {
+display: block;
+	height: 180px;
+	width: 180px;
+	position: relative;
+	
+
+
+  
+}
+
+.btn:hover {
+	
+	display: block;
+	width:190px;
+	height:190px;
+	text-align:center;
+	background-image: url("btn_donasi2.png");
+	background-size:cover;
+}
+
+
+
+a.button {
+
+
+    width: 180px;
+  height: 45px;
+
+  font-size: 18px;
+  text-transform: uppercase;
+  
+  font-weight: 500;
+  color: #fff;
+  background-color: #3697D3;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.panduan {border-radius: 12px;
+margin-top: 180px;}
+
+.tentang {border-radius: 12px;
+margin-top: 40px;}
+
+.button:hover {
+  background-color: #EA5078;
+  box-shadow: 0px 15px 20px rgba(234, 80, 120, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
